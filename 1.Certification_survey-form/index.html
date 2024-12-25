@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id='title'>freeCodeCamp Survey Form</h1>
+    <p id='description'>Thank you for taking the time to help us improve the platform</p>
+    <form method="post" id='survey-form' action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label id="name-label"> Name <input id="name" name="first-name" type="text" placeholder='Enter your name' value='name' required /></label>
+
+        <label id="email-label"> Email <input id="email" name="email" type="email" placeholder='Enter your Email'value='email' required /></label>
+      <label id="number-label">Age(optional) <input id="number" type="number" name="age" min="13" max="120" value='number' placeholder='Age' /></label>
+      <label for="referrer">Which option best describes your current role?
+          <select id="dropdown" name="referrer">
+            <option value="">Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" value='definite' checked /> Definitely</label>
+        <label for="business-account"><input id="business-account" type="radio" value='maybe' name="account-type" class="inline" /> Maybe</label>
+        <label for="business-account"><input id="business-account" type="radio" value='not-sure' name="account-type" class="inline" /> Not sure</label>
+        <label for="referrer">What is your favorite feature of freeCodeCamp?
+          <select id="referrer" name="referrer">
+            <option value="">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+          </select>
+        </label>
+        <div class="form-container">
+        <h2>What would you like to see improved? (Check all that apply)</h2>
+        
+        <div class="checkbox-group">
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="frontend">
+                Front-end Projects
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="backend">
+                Back-end Projects
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="visualization">
+                Data Visualization
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="challenges">
+                Challenges
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="opensource">
+                Open Source Community
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="gitter">
+                Gitter help rooms
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="videos">
+                Videos
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="meetups">
+                City Meetups
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="wiki">
+                Wiki
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="forum">
+                Forum
+            </label>
+            <label class="checkbox-option">
+                <input type="checkbox" name="improvements" value="courses">
+                Additional Courses
+            </label>
+        </div>
+
+        <h2>Any comments or suggestions?</h2>
+        <textarea placeholder="Enter your comment here..."></textarea>
+
+        <button id='submit' class="submit-btn" type='submit'>Submit</button>
+    </div>
+      </fieldset>
+      
+    </form>
+  </body>
+</html>
