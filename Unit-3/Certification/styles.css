@@ -1,0 +1,37 @@
+.side-section{
+    width: 280px;
+    border-right: 1px solid gainsboro;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.main-page{
+    display: flex;
+
+}
+
+#main-doc{
+    padding:12px;
+    outline: 2px solid red;
+    scroll-behavior: auto;
+}
+
+.para-container{
+    background-color: darkgray;
+    padding: 5px;
+}
