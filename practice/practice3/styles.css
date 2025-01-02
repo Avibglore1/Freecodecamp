@@ -1,0 +1,45 @@
+
+.card{
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjZhb2U1MTR5YW1obmQ0bDgzeXFndWx6ZGNseG0ybWwzeGtsejh4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.webp');
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: Corleone;
+    src: url('./Corleone.ttf');
+}
+body{
+    font-family: orbitron, sans-serif;
+    margin: 0;
+}
+h1{
+    color: #82a5ca;
+    text-shadow: 0 0 4px black;
+}
+
+.card{
+    text-align: center;
+    border: 1px solid royalblue;
+    padding: 10px;
+}
+
+button{
+    font-size: 22px;
+    font-family: Corleone;
+    color: #82a5ca;;
+}
+
+.explore{
+    border-bottom: 4px solid white;
+}
+
+#logo{
+    width: 100px;
+}
+
+h3{
+    text-align: center;
+    color: #82a5ca;
+}
